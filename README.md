@@ -27,4 +27,4 @@ Magento Facebook Open Graph Meta Tags Extension
 
 To provide feedback please create an issue on Github.
 
-Read more at [Open Graph tags](https://developers.facebook.com/docs/sharing/best-practices)
+Read more at [Open Graph tags](https://developers.facebook.com/docs/sharing/best-practices) 
