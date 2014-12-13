@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<config>
+    <tabs>
+        <magepal translate="label" module="fbopengraphmetatags">
+            <label>MagePal</label>
+            <sort_order>300</sort_order>
+        </magepal>
+    </tabs>
+    <sections>
+        <fbopengraphmetatags translate="label" module="fbopengraphmetatags">
+            <label>Facebook Open Graph Meta Tags</label>
+            <tab>magepal</tab>
+            <sort_order>1001</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <general_option translate="label">
+                    <label>General Options</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>1</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <fb_app_id translate="label comment">
+                            <label>Facebook ID</label>
+                            <comment>
+                              <![CDATA[Unique ID that identifies your domain to Facebook]]>
+                            </comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </fb_app_id>
+                        <og_locale translate="label comment">
+                            <label>Language</label>
+                            <comment>
+                              <![CDATA[Current Language (Default - en_US)]]>
+                            </comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>5</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </og_locale>
+                        <og_locale_alternate translate="label comment">
+                            <label>Alternate Language</label>
+                            <comment>
+                              <![CDATA[Translation Language (Default - Leave Blank)]]>
+                            </comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </og_locale_alternate>
+                        <article_author translate="label comment">
+                            <label>Article Author</label>
+                            <comment>
+                              <![CDATA[Article Author Url (Default - Leave Blank)]]>
+                            </comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>15</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </article_author>
+                        <article_publisher translate="label comment">
+                            <label>Article Publisher</label>
+                            <comment>
+                              <![CDATA[Article Publisher Url (Default - Leave Blank)]]>
+                            </comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </article_publisher>
+                    </fields>
+                </general_option>
+            </groups>>
+        </fbopengraphmetatags>
+    </sections>
+</config>
+

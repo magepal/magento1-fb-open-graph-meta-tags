@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <MagePal_FbOpenGraphMetaTags>
+      <active>true</active>
+      <codePool>local</codePool>
+      <version>1.0.0</version>
+    </MagePal_FbOpenGraphMetaTags>
+  </modules>
+</config>

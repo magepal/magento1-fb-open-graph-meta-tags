@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <MagePal_FbOpenGraphMetaTags>
+            <version>1.0.0</version>
+        </MagePal_FbOpenGraphMetaTags>
+    </modules>
+    <global>
+        <helpers>
+            <fbopengraphmetatags>
+                <class>MagePal_FbOpenGraphMetaTags_Helper</class>
+            </fbopengraphmetatags>
+        </helpers>
+        <blocks>
+            <fbopengraphmetatags>
+                <class>MagePal_FbOpenGraphMetaTags_Block</class>
+            </fbopengraphmetatags>
+        </blocks>
+    </global>
+    <frontend>
+        <layout>
+            <updates>
+                <fbopengraphmetatags>
+                    <file>magepal_fbopengraphmetatags.xml</file>
+                </fbopengraphmetatags>                
+            </updates>
+        </layout>
+    </frontend>
+    <default>
+        <fbopengraphmetatags>
+            <general_option>
+                <og_locale>en_US</og_locale>
+            </general_option>
+        </fbopengraphmetatags>
+    </default>
+</config> 
